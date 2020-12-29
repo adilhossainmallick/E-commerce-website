@@ -128,6 +128,7 @@ p{
     
 }
 
+
 .col3 img{
     
     width: 100%;
@@ -170,7 +171,9 @@ p{
 
 .col3:hover{
     transform:translateY(-5px);
+    box-shadow:seagreen;
 }
+
 
 .offer{
     background: radial-gradient(#fff,#ffd6d6);
@@ -210,6 +213,9 @@ p{
 
 .footer p{
     color: #8a8a8a;
+}
+.footer ul li:hover{
+    color:green;
 }
 
 .footer h3{
@@ -332,6 +338,13 @@ ul{
     
     .col3{
         margin-left: 0px;
+    }
+    .col img{
+        margin-left: 080px;
+    }
+
+    .footer-col-1 h3{
+        margin-left: 21px;
     }
 
 }
