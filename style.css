@@ -43,6 +43,10 @@ nav ul li{
     margin-right: 20px;
 }
 
+nav ul li a:hover{
+    color:rgb(188, 240, 235);
+}
+
 
 a{
     text-decoration:blueviolet;
@@ -341,6 +345,10 @@ ul{
     }
     .col img{
         margin-left: 080px;
+    }
+
+    .col a{
+        margin-left: 55px;
     }
 
     .footer-col-1 h3{
